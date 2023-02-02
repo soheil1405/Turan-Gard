@@ -6,7 +6,7 @@ const Develop = () => {
       <span className="text-sm">
         Develop & Design by
         <a
-          href="https://www.linkedin.com/in/pouyasadeghi/"
+          href="https://github.com/amirghaderian"
           className="ml-2 px-1 text-myorange font-bold "
         >
           Amir Ghaderyan
