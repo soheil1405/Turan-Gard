@@ -1,12 +1,12 @@
 import React from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 // icons
 import takhteJamshid from "../../public/assets/takhtjamshid-new.jpg";
 import turkiye from "../../public/assets/turkiye.jpg"
 import brazil from "../../public/assets/brazil.jpg"
 import france from "../../public/assets/france.jpg"
-
-
 
 // components
 import Package from "./Package";
@@ -57,17 +57,30 @@ const Packages = () => {
           با این تور ها میتوانید به مکان های بی نظیر سفر کنید
         </p>
       </div>
-      <div className="flex items-center px-9 md:px-20 justify-between gap-x-4 overflow-auto mb-8 pb-8">
-        {packs.map((pack) => (
-          <Package
+
+      <div className="flex items-center px-4 md:px-20 justify-between gap-x-4 overflow-auto mb-8 pb-8 md:w-[400] ">
+
+      <Swiper
+      spaceBetween={50}
+      slidesPerView={2}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      
+
+
+        {packs.map((pack) => (<SwiperSlide  key={pack.id}>          <Package
+
             title={pack.title}
             description={pack.description}
             oldPrice={pack.oldPrice}
             newPrice={pack.newPrice}
             picture={pack.picture}
             key={pack.id}
-          />
+          /></SwiperSlide>
+
         ))}
+    </Swiper>
       </div>
     </div>
   );

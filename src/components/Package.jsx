@@ -4,7 +4,7 @@ const Package = ({ title, description, oldPrice, newPrice, picture }) => {
   return (
     <div>
       {/* section 1 */}
-      <div className="flex flex-col w-full gap-y-6 bg-mywhite shadow-md hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-300">
+      <div className="flex flex-col w-full gap-y-6 bg-mywhite shadow-md hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-300 md:w-80 md:border-2 border-slate-500	">
         {/* #1 */}
         <div className="w-[260px] h-[190px] rounded-bl-2xl overflow-hidden">
           <img src={picture} alt="package" className="w-full h-full" />
