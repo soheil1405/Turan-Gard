@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./components/Header";
 import "./font.css";
 
-// components
 import Navbar from "./components/Navbar";
 import Search from "./components/Search";
 import Packages from "./components/Packages";
