@@ -62,7 +62,7 @@ const Packages = () => {
 
       <Swiper
       spaceBetween={50}
-      slidesPerView={2}
+      slidesPerView={2.25}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >

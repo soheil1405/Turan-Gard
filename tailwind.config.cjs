@@ -13,6 +13,8 @@ module.exports = {
         "myblack" : "#1D1D1D",
         "mylight" : "#EBF1F7",
         "mygray" : " #878383",
+        "mybody" :"#FEF2F2"
+        
       },
       fontFamily: {
         'sans': ['"iranyekan"'],
