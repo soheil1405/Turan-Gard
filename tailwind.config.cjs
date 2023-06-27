@@ -13,15 +13,24 @@ module.exports = {
         "myblack" : "#1D1D1D",
         "mylight" : "#EBF1F7",
         "mygray" : " #878383",
-        "mybody" :"#FEF2F2"
+        "mybody" :"#FEF2F2",
         
+        "mycard":"rgb(255, 153,0,0.7)",
+        "card1":"#f43f5e",
+        "card2":"#3b82f6",
+        "card3":"#22c55e"
       },
       fontFamily: {
         'sans': ['"iranyekan"'],
       },
       backgroundImage : {
         'bestTrip' : "url('./public/assets/Vector.png')",
+      },
+      spacing : {
+        200:"50rem",
+        
       }
+      
     },
     
   },
