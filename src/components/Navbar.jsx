@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="hidden md:flex items-center gap-x-12 py-6 px-20 mb-4">
         <div className="flex items-center">
           <span className="font-extrabold md:text-xs xl:text-lg text-2xl text-myorange">
-توران گرد
+            توران گرد
           </span>
           <img src={airplane} alt="airplane" />
         </div>
